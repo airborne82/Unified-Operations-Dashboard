@@ -1,0 +1,242 @@
+{
+  "version": 4,
+  "app_title": "Operations Dashboard Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-1242c34e",
+      "name": "Tabbed Dashboard",
+      "route": "/",
+      "item_ref": {
+        "index": 0,
+        "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+      },
+      "blocks": [
+        {
+          "id": "command-header",
+          "type": "header",
+          "label": "Command header",
+          "hint": "Dashboard title, current status, time, and compact action controls",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "workspace-tabs",
+          "type": "tabs",
+          "label": "Workspace tabs",
+          "hint": "Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, Email",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "ops-centerpiece",
+          "type": "chart_area",
+          "label": "Operations centerpiece",
+          "hint": "Large command-center visual showing current operational flow and status zones",
+          "x": 0,
+          "y": 2,
+          "w": 8,
+          "h": 5,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "status-summary",
+          "type": "kpi",
+          "label": "Status summary",
+          "hint": "Key operational metrics and alerts",
+          "x": 8,
+          "y": 2,
+          "w": 4,
+          "h": 2,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "active-events",
+          "type": "list",
+          "label": "Active events",
+          "hint": "Prioritized feed of incidents, changes, meetings, and messages",
+          "x": 8,
+          "y": 4,
+          "w": 4,
+          "h": 3,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "tab-content-panels",
+          "type": "card_grid",
+          "label": "Tab content panels",
+          "hint": "Contextual cards change per selected workspace",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a mission-control dashboard shell with a tabbed workspace for Operations, Network, Systems, Gladius AI, Desktop, Calendar, Chat, and Email, using a tactical command-center visual direction with compact typography, graphite surfaces, amber/cyan status accents, and a live operations map-style centerpiece."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-3313f837",
+      "name": "Section Workspaces",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build out each tab with realistic, fully populated panels, controls, status indicators, and empty/loading states appropriate to its workflow."
+      },
+      "blocks": [
+        {
+          "id": "workspace-header",
+          "type": "header",
+          "label": "Selected workspace header",
+          "hint": "Section-specific title, health, and actions",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build out each tab with realistic, fully populated panels, controls, status indicators, and empty/loading states appropriate to its workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "workspace-panels",
+          "type": "card_grid",
+          "label": "Primary workspace panels",
+          "hint": "Detailed, realistic panels for the selected tab workflow",
+          "x": 0,
+          "y": 1,
+          "w": 8,
+          "h": 5,
+          "item_ref": {
+            "index": 1,
+            "text": "Build out each tab with realistic, fully populated panels, controls, status indicators, and empty/loading states appropriate to its workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "workspace-activity",
+          "type": "list",
+          "label": "Workspace activity rail",
+          "hint": "Recent changes, messages, incidents, or upcoming items",
+          "x": 8,
+          "y": 1,
+          "w": 4,
+          "h": 5,
+          "item_ref": {
+            "index": 1,
+            "text": "Build out each tab with realistic, fully populated panels, controls, status indicators, and empty/loading states appropriate to its workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "quick-action-area",
+          "type": "form",
+          "label": "Quick action area",
+          "hint": "Inputs and controls for common actions in the selected tab",
+          "x": 0,
+          "y": 6,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build out each tab with realistic, fully populated panels, controls, status indicators, and empty/loading states appropriate to its workflow."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-2da559b6",
+      "name": "Responsive Dashboard State",
+      "route": "/",
+      "item_ref": {
+        "index": 2,
+        "text": "Wire the tab interactions, responsive behavior, and shared dashboard state so users can switch sections smoothly and see coherent cross-system status throughout."
+      },
+      "blocks": [
+        {
+          "id": "responsive-tabs",
+          "type": "tabs",
+          "label": "Responsive tab switcher",
+          "hint": "Tabs collapse cleanly on smaller screens while preserving section access",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Wire the tab interactions, responsive behavior, and shared dashboard state so users can switch sections smoothly and see coherent cross-system status throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "shared-status",
+          "type": "card_grid",
+          "label": "Shared system status",
+          "hint": "Cross-tab indicators keep the dashboard coherent",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Wire the tab interactions, responsive behavior, and shared dashboard state so users can switch sections smoothly and see coherent cross-system status throughout."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "unified-log",
+          "type": "table",
+          "label": "Unified activity log",
+          "hint": "Sortable-looking operational log with tab-aware content",
+          "x": 0,
+          "y": 4,
+          "w": 12,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Wire the tab interactions, responsive behavior, and shared dashboard state so users can switch sections smoothly and see coherent cross-system status throughout."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
